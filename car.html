@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Buggati</title>
+  </head>
+  <body bgcolor="black">
+    <div>
+      <h1>Use the buttons below for different views of buggati</h1>
+      <style>
+        h1 {
+          color: rebeccapurple;
+          text-align: center;g
+        }
+      </style>
+    </div>
+    <center>
+      <button onclick="document.getElementById('myImage').src='buggati2.jpg'">
+        View buggati
+      </button>
+    </center>
+    <br />
+    <center>
+      <button onclick="document.getElementById('myImage').src='buggati3.jpg'">
+        Back view
+      </button>
+    </center>
+    <br />
+    <center>
+      <button
+        onclick="document.getElementById('myImage').src='buggati interior.jpg'"
+      >
+        Interior
+      </button>
+    </center>
+    <br />
+    <center>
+      <img id="myImage" src="" style="width: 500px" />
+    </center>
+  </body>
+</html>
